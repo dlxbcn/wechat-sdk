@@ -25,4 +25,10 @@ const (
 
 	// SendRedPackURL 发送现金红包
 	SendRedPackURL = "https://api.mch.weixin.qq.com/mmpaymkttransfers/sendredpack"
+	
+	// 企业版微信 登录凭证校验
+	JsCode2SessionURLQY = "https://qyapi.weixin.qq.com/cgi-bin/miniprogram/jscode2session"
+	
+	// 企业版微信 获取access_token
+	AccessTokenURLQY = "https://qyapi.weixin.qq.com/cgi-bin/gettoken"
 )
